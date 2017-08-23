@@ -61,7 +61,7 @@ export class BingSpeechClient {
     /**
      * Supported: raw-8khz-8bit-mono-mulaw, raw-16khz-16bit-mono-pcm, riff-8khz-8bit-mono-mulaw, riff-16khz-16bit-mono-pcm
      */
-    private AUDIO_OUTPUT_FORMAT = 'riff-8khz-8bit-mono-mulaw';
+    private AUDIO_OUTPUT_FORMAT = 'raw-16khz-16bit-mono-pcm';
 
     /**
       * @constructor
